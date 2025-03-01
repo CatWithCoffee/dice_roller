@@ -50,7 +50,7 @@ body{
 
 #dices_results{
     position: absolute;
-    top: 87vh;
+    bottom: 13vh;
     display: flex;
     flex-direction: row;
     align-items: center;
