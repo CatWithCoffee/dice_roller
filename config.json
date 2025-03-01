@@ -1,0 +1,10 @@
+{
+    "dices": {
+        "dir": "dices",
+        "template": "dices_tmpl"
+
+    },
+    "maps": {
+        "dir": "maps"
+    }
+}
