@@ -50,7 +50,7 @@ body{
 
 #dices_results{
     position: absolute;
-    bottom: 13vh;
+    top: 88vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -63,54 +63,41 @@ body{
 }
 
 .dice_result{
-    /* transition: all 0.4s; */
+    transition: all 0.4s;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: gray;
-    gap: 0px;
+    gap: 1px;
+}
 
-    p{
-        margin: 0;
-    }
-    .success{
-        font-weight: bold;
-        
-    }
-    .fail{
-        font-weight: bold;
-        
-    }
-    .border.success{
-        border-bottom: rgba(255, 215, 0, 1) solid 2px;
-    }
-    .border.fail{
-        border-bottom: rgba(255, 0, 0, 1) solid 2px;
-    }
+.dice_result p{
+    margin: 0;
+}
+.dice_result .success{
+    font-weight: bold;
+}
+.dice_result .fail{
+    font-weight: bold;
+}
+.dice_result .border.success{
+    border-bottom: rgba(255, 215, 0, 1) solid 2px;
+}
+.dice_result .border.success{
+    border-bottom: rgba(255, 0, 0, 1) solid 2px;
 }
 
 .dice_result:first-child{
     color: black;
     font-size: large;
-    
-    .success{
-        color: rgba(255, 215, 0, 1);
-        font-weight: bold;
-
-    }
-    .fail{
-        color: rgba(255, 0, 0, 1);
-        font-weight: bold;
-
-    }
 }
 
-/* .dot {
-    position: absolute;
-    inset: 0;
-    height: 100%;
-    width: 100%;
-    background-image: radial-gradient(#000000 4px, transparent 1px);
-    background-size: 16px 16px;
-    background-position: center;} */
+.dice_result:first-child .success{
+    color: rgba(255, 215, 0, 1);
+    font-weight: bold;
+}
 
+.dice_result:first-child .fail{
+    color: rgba(255, 0, 0, 1);
+    font-weight: bold;
+}
