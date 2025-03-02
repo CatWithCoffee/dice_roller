@@ -83,7 +83,7 @@ body{
 .dice_result .border.success{
     border-bottom: rgba(255, 215, 0, 1) solid 2px;
 }
-.dice_result .border.success{
+.dice_result .border.fail{
     border-bottom: rgba(255, 0, 0, 1) solid 2px;
 }
 
